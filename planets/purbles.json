@@ -1,1 +1,44 @@
-
+{
+	"name" : "Wetrock",
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+	"starSystem" : "SolarSystem",
+	"Base" : 
+	{
+		"groundSize" : 100,
+		"waterSize" : 101,
+		"surfaceSize" : 101,
+		"surfaceGravity" : 12,
+		"hasMapMarker" : true,
+	},
+	"Orbit" : 
+	{
+		"semiMajorAxis" : 20000,
+		"inclination" : 90,
+		"primaryBody" : "SUN",
+		"isMoon" : false,
+		"isTidallyLocked" : false,
+		"longitudeOfAscendingNode" : 0,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 0
+	},
+	"Atmosphere" : 
+	{
+		"size" : 500,
+		"fogTint" : 
+		{
+			"r" : 165,
+            "g" : 174,
+            "b" : 206,
+            "a" : 0.8
+		},
+		"fogSize": 501,
+		"fogDensity":1,
+		"hasSnow" : true,
+	},
+	"Props" :
+	{
+		"scatter" : [
+			{"path" : "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_1/Props_DreamZone_1/OtherComponentsGroup/Trees_Z1/DreamHouseIsland/Tree_DW_M_Var", "count" : 17}
+		]
+	}
+}
